@@ -173,31 +173,6 @@ button:hover{
     box-shadow: 0 0 20px rgba(0,170,255,0.7);
 }
 
-/* ANIMATIONS */
-
-
-@keyframes glow{
-
-    from{
-        transform: translate(0,0);
-    }
-
-    to{
-        transform: translate(80px,60px);
-    }
-}
-
-@keyframes glow2{
-
-    from{
-        transform: translate(0,0);
-    }
-
-    to{
-        transform: translate(-80px,-60px);
-    }
-}
-
 
 /* RESPONSIVE */
 
