@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phishing Report</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h1>Phishing Incident Report</h1>
+
+        <form id="phishingForm">
+
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Phone Number">
+
+            <input type="text" placeholder="Scammer's Email or Phone Number" required>
+            <input type="url" placeholder="Phishing Link / Fake Website URL">
+
+            <select required>
+                <option value="">Select Phishing Type</option>
+                <option>Fake Bank Alert / SMS</option>
+                <option>Fake Mobile Banking (bKash/Nagad)</option>
+                <option>Fake Social Media Login Page</option>
+                <option>Lottery or Prize Scam</option>
+                <option>Fake Job Offer</option>
+            </select>
+
+            <textarea placeholder="Describe how you received the message and what happened..." rows="6" required></textarea>
+
+            <p style="text-align: center; color: #ff4d4d; margin-bottom: 10px;">
+                Attach a screenshot of the fake email, SMS, or website:
+            </p>
+            <input type="file" required>
+
+            <button type="submit">Submit Evidence</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

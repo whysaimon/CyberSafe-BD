@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Fraud Report</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h1>Online Banking Fraud Report</h1>
+
+        <form id="bankingForm">
+
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Phone Number" required>
+
+            <input type="text" placeholder="Name of your Bank or MFS (e.g., BRAC, DBBL, bKash)" required>
+            <input type="text" placeholder="Disputed Transaction ID (if applicable)">
+            <input type="number" placeholder="Total Amount Lost (BDT)" required>
+
+            <select required>
+                <option value="">Select Fraud Type</option>
+                <option>Unauthorized App Transfer</option>
+                <option>Cloned Card / ATM Skimming</option>
+                <option>Fake Bank Official Call (OTP Stolen)</option>
+                <option>Stolen Credit Card Details</option>
+                <option>Other Financial Fraud</option>
+            </select>
+
+            <textarea placeholder="Describe exactly when and how the money was taken from your account..." rows="6" required></textarea>
+
+            <p style="text-align: center; color: #ff4d4d; margin-bottom: 10px;">
+                Attach a screenshot of the bank SMS alert or your bank statement:
+            </p>
+            <input type="file" required>
+
+            <button type="submit">Submit Evidence</button>
+
+        </form>
+
+    </div>
+
+   
+
+</body>
+
+</html>

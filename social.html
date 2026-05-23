@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Hack Report</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h1>Social Media Hack Report</h1>
+
+        <form id="socialForm">
+
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Platform</option>
+                <option>Facebook</option>
+                <option>WhatsApp</option>
+                <option>Instagram</option>
+                <option>X (Twitter)</option>
+                <option>LinkedIn</option>
+                <option>Other</option>
+            </select>
+
+            <input type="url" placeholder="Link to the Hacked Profile (or Username)" required>
+
+            <select required>
+                <option value="">Select Hack Type</option>
+                <option>Password Changed / Locked Out</option>
+                <option>Hacker Asking Friends for Money</option>
+                <option>Extortion / Blackmail Threats</option>
+                <option>Profile Cloned (Fake Account)</option>
+                <option>Account Deleted or Suspended</option>
+            </select>
+
+            <textarea placeholder="Describe how you lost access and what the hacker is doing..." rows="6" required></textarea>
+
+            <p style="text-align: center; color: #ff4d4d; margin-bottom: 10px;">
+                Attach a screenshot of the hacker's messages or the login error screen:
+            </p>
+            <input type="file" required>
+
+            <button type="submit">Submit Evidence</button>
+
+        </form>
+
+    </div>
+    
+</body>
+
+</html>
