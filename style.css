@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #0b111e; /* Fallback dark color */
-    overflow-x: hidden; /* Fixed typo here */
+    overflow-x: hidden; /* Fixed typing here */
 }
 
 /* Navbar */
@@ -86,7 +86,7 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(0, 195, 255, 0.5);
 }
 
-/* Details box */
+/* Details Box */
 #details {
     color: #e2f1f8;
     margin: 30px auto;
